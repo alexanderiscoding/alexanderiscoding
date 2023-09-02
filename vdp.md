@@ -14,7 +14,7 @@ Desenvolvi esta política para manter um senso de responsabilidade para com os p
 
   ✅ **Incluir uma vulnerabilidade por relatório (a menos que estejam em uma cadeia de ataques).**
 
-  ✅ **Enviar relatório pelo nosso [email](mailto:reportar@alexanderiscoding.com) dedicado com os requisitos acima.**
+  ✅ **Enviar relatório para nosso [email dedicado](mailto:reportar@alexanderiscoding.com) com os requisitos acima ou através do nosso [GitHub Security Advisories](https://github.com/alexanderiscoding/.github/security/advisories?state=Triage).**
 
 ### **O que você pode esperar dessa vulnerabilidade**
 
