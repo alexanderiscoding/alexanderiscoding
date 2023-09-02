@@ -8,21 +8,21 @@ Desenvolvi esta política para manter um senso de responsabilidade para com os p
 
 ### **Como relatar uma vulnerabilidade**
 
-  :white_check_mark: **Descrever a vulnerabilidade, onde ela ocorre e o impacto no mundo real.**
+  ✅ **Descrever a vulnerabilidade, onde ela ocorre e o impacto no mundo real.**
 
-  :white_check_mark: **Oferecer uma descrição detalhada das etapas necessárias para reproduzir a vulnerabilidade (pontos de contato, capturas de tela e vídeos são úteis).**
+  ✅ **Oferecer uma descrição detalhada das etapas necessárias para reproduzir a vulnerabilidade (pontos de contato, capturas de tela e vídeos são úteis).**
 
-  :white_check_mark: **Incluir uma vulnerabilidade por relatório (a menos que estejam em uma cadeia de ataques).**
+  ✅ **Incluir uma vulnerabilidade por relatório (a menos que estejam em uma cadeia de ataques).**
 
-  :white_check_mark: **Enviar relatório pelo nosso [email](mailto:reportar@alexanderiscoding.com) dedicado com os requisitos acima.**
+  ✅ **Enviar relatório pelo nosso [email](mailto:reportar@alexanderiscoding.com) dedicado com os requisitos acima.**
 
 ### **O que você pode esperar dessa vulnerabilidade**
 
-  :white_check_mark: **Confirmaremos o recebimento do seu relatório em um dia útil.**
+  ✅ **Confirmaremos o recebimento do seu relatório em um dia útil.**
 
-  :white_check_mark: **Enviaremos a você uma confirmação da existência da vulnerabilidade e seremos o mais transparentes possível sobre o processo de correção, incluindo problemas ou desafios que possam atrasar a resolução.**
+  ✅ **Enviaremos a você uma confirmação da existência da vulnerabilidade e seremos o mais transparentes possível sobre o processo de correção, incluindo problemas ou desafios que possam atrasar a resolução.**
 
-  :white_check_mark: **Manteremos um diálogo aberto para discutir as questões.**
+  ✅ **Manteremos um diálogo aberto para discutir as questões.**
 
 ### **Isenção de responsabilidade**
 
