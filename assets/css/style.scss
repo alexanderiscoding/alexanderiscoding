@@ -7,16 +7,15 @@
   color-scheme: light dark;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #fff;
-    color: #24292e;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000;
     color: #e9e6e6;
+  }
+  .markdown-body table tr {
+    background-color: #000;
+  }
+  .markdown-body table tr:nth-child(2n) {
+    background-color: #212121;
   }
 }
