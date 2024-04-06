@@ -36,5 +36,4 @@ Obrigado por visitar meu site e aguardo com expectativa a oportunidade de trabal
   <strong>Serviços</strong>
 </h2>
 
-- [CaptureLogger](capturelogger)
-- [RealEstate](realestate)
+- [Auth](https://documenter.getpostman.com/view/29484979/2sA35MxJa1)
