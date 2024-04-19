@@ -1,3 +1,6 @@
 <p align="center">
-  Todos os meus projetos são hospedados em plataformas populares de compartilhamento de código e estão disponíveis para qualquer pessoa acessar e usar. Aproveitando essas ferramentas, os desenvolvedores podem acelerar seu processo de desenvolvimento e criar soluções inovadoras que ultrapassam os limites do que é possível.
+  <img src="https://github.com/alexanderiscoding/alexanderiscoding/blob/main/assets/cover-alexanderiscoding.png?raw=true" height="200"/>
 </p>
+<hr>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Alexander F.</h1>
+<h3 align="center">Software Engineer | Technical Content Writer | Designer Enthusiast</h3>
