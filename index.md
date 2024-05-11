@@ -14,10 +14,6 @@
   <a href="privacy">Privacidade</a>
   <span> · </span>
   <a href="terms">Termos</a>
-  <span> · </span>
-  <a href="https://alexanderiscoding.featurebase.app/pt/roadmap">Roteiro</a>
-  <span> · </span>
-  <a href="https://alexanderiscoding.featurebase.app/pt/changelog">Registro de alterações</a>
 </h3>
 
 <p align="center">
@@ -40,4 +36,4 @@ Obrigado por visitar meu site e aguardo com expectativa a oportunidade de trabal
   <strong>Serviços</strong>
 </h2>
 
-- [Authorization](https://documenter.getpostman.com/view/29484979/2sA35MxJa1)
+- [Authorization](authorization)
