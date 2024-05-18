@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 html {
   height: 100% !important;
 }
@@ -23,8 +27,8 @@ footer {
   text-decoration: none !important;
 }
 
-:root {
-  color-scheme: light dark;
+main:has(p.notfound) {
+  margin-top: auto !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,5 +51,10 @@ footer {
 
   .border-top {
     border-top: 1px #2d2f30 solid !important;
+  }
+
+  .btn {
+    color: white !important;
+    background-color: rgb(11, 94, 215) !important;
   }
 }
