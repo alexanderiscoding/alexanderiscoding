@@ -1,0 +1,51 @@
+html {
+  height: 100% !important;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+footer {
+  margin-top: auto !important;
+}
+
+.logo {
+  font-weight: 500;
+  color: black;
+}
+
+.nolink {
+  text-decoration: none !important;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #e9e6e6;
+  }
+
+  .logo {
+    color: white;
+  }
+
+  .bg-gray-light {
+    background-color: #0f0f0f !important;
+  }
+
+  .text-gray {
+    color: #7a848f !important;
+  }
+
+  .border-top {
+    border-top: 1px #2d2f30 solid !important;
+  }
+}

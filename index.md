@@ -1,39 +1,31 @@
-<h1 align="center">
-  <a href="https://github.com/alexanderiscoding">
-    Alexanderiscoding
-  </a>
-</h1>
-
-<p align="center">
-  <strong>Bem vindo ao meu site pessoal!</strong>
-</p>
-
-<h3 align="center">
-  <a href="vdp">Vulnerabilidades</a>
-  <span> · </span>
-  <a href="privacy">Privacidade</a>
-  <span> · </span>
-  <a href="terms">Termos</a>
-</h3>
-
-<p align="center">
-Meu nome é Alexander e sou desenvolvedor há muitos anos. apaixonado por programação e atento aos detalhes, dediquei minha carreira a projetar e construir soluções inovadoras que resolvem problemas complexos.
-</p>
-
-<p align="center">
-Ao longo dos anos, ganhei ampla experiência em várias linguagens de programação, estruturas e tecnologias. Minha experiência inclui o desenvolvimento de aplicativos, a criação de interfaces de usuário atraentes e a implementação de sistemas de back-end robustos.
-</p>
-
-<p align="center">
-Se você é uma startup procurando construir um produto mínimo viável ou um negócio estabelecido que busca renovar sua presença digital, estou aqui para ajudar. Com uma abordagem focada no cliente e o compromisso de entregar um trabalho de alta qualidade, estou confiante de que posso atender às suas necessidades exclusivas e superar suas expectativas.
-</p>
-
-<p align="center">
-Obrigado por visitar meu site e aguardo com expectativa a oportunidade de trabalhar com você.
-</p>
-
-<h2 align="center">
-  <strong>Serviços</strong>
-</h2>
-
-- [Authorization](authorization)
+<section class="mini-section mt-6">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6">Comece hoje mesmo</h2>
+    <p class="alt-lead text-gray text-center col-md-10 mx-auto">Entre em contato comigo para saber mais sobre como
+      hospedar sua própria instância.</p>
+    <div class="mt-md-6 clearfix gutter-spacious">
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Escolha o serviço</h3>
+        <p class="text-gray">Cada serviço tem um propósito específico.</p>
+        <p class="text-gray">E tem comportamento diferente de acordo como foi previamente configurado.</p>
+      </div>
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Configure o serviço</h3>
+        <p class="text-gray">Define as configurações para a finalidade pretendida.</p>
+        <p class="text-gray">Prefere hospedar sua própria instância? Entre em contato conosco para começar.</p>
+      </div>
+    </div>
+    <div class="mb-md-6 clearfix gutter-spacious">
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Crie uma organização</h3>
+        <p class="text-gray">Uma organização é a sua presença oficial entre serviços.</p>
+        <p class="text-gray">E uma organização poderá controlar as aplicações que ela criou.</p>
+      </div>
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Crie uma aplicação</h3>
+        <p class="text-gray">Uma aplicação é um meio de diferenciar propósitos diferentes.</p>
+        <p class="text-gray">E a aplicação também poderá ser de um serviço, já que serão utilizadas entre serviços.</p>
+      </div>
+    </div>
+  </div>
+</section>
