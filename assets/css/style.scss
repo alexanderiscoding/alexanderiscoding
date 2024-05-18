@@ -1,3 +1,6 @@
+@import "{{ site.theme }}";
+@import "primer";
+
 :root {
   color-scheme: light dark;
 }
@@ -7,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   height: 100% !important;
   display: flex !important;
