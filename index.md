@@ -11,7 +11,7 @@
     <div class="mb-4 col-md-6 float-left">
       <h3 class="alt-h3 mb-2">Configure o serviço</h3>
       <p class="text-gray">Define as configurações para a finalidade pretendida.</p>
-      <p class="text-gray">Prefere hospedar sua própria instância? Entre em contato conosco para começar.</p>
+      <p class="text-gray">E com isso definindo integrações e comportamentos conforme a preferência.</p>
     </div>
   </div>
   <div class="mb-md-6 clearfix gutter-spacious">
