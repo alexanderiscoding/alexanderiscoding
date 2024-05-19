@@ -1,3 +1,8 @@
+---
+layout: page
+title: Blog
+---
+
 <section class="container-lg py-md-6 my-lg-6">
   <h2 class="alt-h2 text-center mb-3">Comece hoje mesmo</h2>
   <p class="alt-lead text-gray text-center col-md-10 mx-auto">Entre em contato comigo para saber mais sobre como

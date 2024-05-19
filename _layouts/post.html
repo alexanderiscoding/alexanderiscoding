@@ -1,0 +1,11 @@
+{% include header.html %}
+
+<main class="container-lg p-responsive py-4">
+  <h1 class="post-title text-center mb-3">
+    {{ page.title }}
+    <span class="post-date">Escrito em {{ page.date | date: '%d/%m/%Y'}}</span>
+  </h1>
+  <section class="container content-section markdown">{{ content }}</section>
+</main>
+
+{% include footer.html %}

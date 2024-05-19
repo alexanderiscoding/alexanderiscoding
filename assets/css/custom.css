@@ -96,9 +96,16 @@ main:has(p.notfound) {
 }
 
 .post-title {
-  font-size: 42px;
   letter-spacing: -1px;
-  line-height: 1
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.post-date {
+  display: block;
+  margin-top: 1rem;
+  color: #9a9a9a;
+  font-size: 0.8rem;
 }
 
 @media screen and (max-width: 800px) {

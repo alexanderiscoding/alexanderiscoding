@@ -1,3 +1,8 @@
+---
+layout: markdown
+title: Termos de uso
+---
+
 # Termos de uso
 
 Ao usar nossos serviços, você concorda com estes termos - Por favor, leia-os com atenção.

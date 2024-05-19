@@ -1,3 +1,8 @@
+---
+layout: markdown
+title: Política de Privacidade
+---
+
 # Política de Privacidade
 
 Ao usar nossos serviços, você concorda com estes termos - Por favor, leia-os com atenção.

@@ -3,7 +3,7 @@
 
 <head>
 	<meta charSet="utf-8" />
-	<title>Alexanderiscoding</title>
+	<title>Alexanderiscoding{% if page.title %} | {{page.title}}{% endif %}</title>
 	<meta name="robots" content="index,follow" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://alexanderiscoding.com" />
@@ -61,40 +61,3 @@
 		<a class="nolink py-3" href="{{ "/" | relative_url}}"><h2 class="logo alt-h2 mb-2">Alexanderiscoding</h2></a>
 	</header>
 	{% endif %}
-
-	{% if page.url == "/" %}
-		{{ content }}
-	{% else %}
-	<main class="container-lg p-responsive py-4 markdown">
-		{{ content }}
-	</main>
-	{% endif %}
-
-	<footer class="bg-gray-light">
-		<div class="container-lg p-responsive py-4 ">
-			<div class="d-flex flex-justify-between">
-				<ul class="list-style-none float-right text-small">
-					<li class="d-none d-lg-inline-block ml-lg-2"><a
-							href="https://github.com/alexanderiscoding/alexanderiscoding/discussions" target="_blank">Comunidade</a>
-					</li>
-					
-					<li class="d-inline-block ml-lg-2"><a href="mailto:github@alexanderiscoding.com">Blog</a></li>
-					<li class="d-none d-lg-inline-block ml-lg-2"><a href="https://github.com/alexanderiscoding/alexanderiscoding/issues"
-						target="_blank">Reportar bug</a></li>
-				</ul>
-				<a href="{{ "/" | relative_url}}" class="text-center">
-					<span class="sr-only">Voltar ao Inicio</span>
-					<img src="https://files.alexanderiscoding.com/favicons/favicon-32x32.png" alt="Logo of Alexanderiscoding">
-				</a>
-				<ul class="list-style-none float-left text-small">
-					<li class="d-inline-block mr-lg-2"><a href="vdp">Vulnerabilidades</a></li>
-					<li class="d-none d-lg-inline-block mr-lg-2"><a href="privacy">Privacidade</a></li>
-					<li class="d-none d-lg-inline-block mr-lg-2"><a href="terms">Termos</a></li>
-				</ul>
-			</div>
-			<p class="border-top text-center f5 mt-4 pt-4">&copy; 2022 - {{ site.time | date: '%Y' }} Alexanderiscoding.</p>
-		</div>
-	</footer>
-</body>
-
-</html>
