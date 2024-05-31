@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Blog
 ---
 
 <section class="container-lg py-md-6 my-lg-6">
