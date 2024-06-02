@@ -27,6 +27,6 @@ layout: page
     </div>
   </div>
   <p class="text-center">
-    <a href="services" class="btn btn-outline">Saber mais sobre serviços →</a>
+    <a href="services" class="btn btn-outline">Saber mais sobre os serviços →</a>
   </p>
 </section>
