@@ -9,7 +9,7 @@ layout: page
   <div class="mt-md-6 clearfix gutter-spacious">
     <div class="mb-4 col-md-6 float-left">
       <h3 class="alt-h3 mb-2">Escolha o serviço</h3>
-      <p class="text-gray">Oferecemos demonstrações e períodos de testes gratuitos para que experimentem os serviços antes de contratarem.</p>
+      <p class="text-gray">Oferecemos demonstrações e períodos de testes gratuitos para que utilizem os serviços antes de contratarem.</p>
     </div>
     <div class="mb-4 col-md-6 float-left">
       <h3 class="alt-h3 mb-2">Hospede o serviço</h3>
