@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.alexanderiscoding.com/favicons/logo.png" height="200"/>
+  <img src="https://assets.alexanderiscoding.com/favicons/logo.png" height="200"/>
 </p>
 <hr>
 <h1 align="center">Alexanderiscoding</h1>
