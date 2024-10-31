@@ -1,6 +1,0 @@
-# global settings
-relative_permalinks: false
-
-# build settings
-exclude: ["readme.md"]
-markdown: kramdown
