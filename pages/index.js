@@ -32,14 +32,14 @@ export default function Page() {
       </Head>
 
       <section className="text-center mb-16">
-        <h1 className="text-[54px] font-medium mb-6">Transformando Ideias em Tecnologia</h1>
-        <p className="text-2xl max-w-3xl mx-auto font-light mb-12">
-          Desenvolvemos soluções de software que beneficiam a comunidade, promovendo melhorias na vida cotidiana e facilitando o acesso a serviços essenciais.
+        <h1 className="text-3xl md:text-5xl font-medium mb-6">Transformando Ideias em Tecnologia</h1>
+        <p className="text-base md:text-xl max-w-3xl mx-auto font-light mb-12">
+          Desenvolvemos soluções de software que beneficiam a comunidade.
         </p>
       </section>
 
-      <section id="servicos" className="mb-12">
-        <div className="grid md:grid-cols-2 gap-6">
+      <section className="mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg shadow p-6">
             <div className="flex items-center">
               <UserCircleIcon className="h-6 w-6 text-indigo-600 mr-2" aria-hidden="true" />
