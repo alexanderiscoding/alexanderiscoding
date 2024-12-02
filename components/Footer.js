@@ -1,35 +1,37 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Button } from "@/components/ui/button"
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-center items-center">
-          <div className="w-full md:w-1/3 flex justify-center space-x-4 mb-4 md:mb-0">
-            <Link href="https://github.com/alexanderiscoding/alexanderiscoding/issues" className="hover:text-blue-400 transition-colors">Relatar problema</Link>
-            <Link href="https://github.com/alexanderiscoding/alexanderiscoding/discussions/categories/ideas" className="hover:text-blue-400 transition-colors">Solicitar melhorias</Link>
-            <Link href="/services" className="hover:text-blue-400 transition-colors">Serviços</Link>
-          </div>
-          <div className="w-full md:w-1/3 flex justify-center mb-4 md:mb-0">
-            <Image
-              src="https://assets.alexanderiscoding.com/favicons/favicon-32x32.png"
-              alt="Alexanderiscoding logo"
-              width={32}
-              height={32}
-            />
-          </div>
-          <div className="w-full md:w-1/3 flex justify-center space-x-4 mb-4 md:mb-0">
-            <Link href="/vdp" className="hover:text-blue-400 transition-colors">Vulnerabilidades</Link>
-            <Link href="/privacy" className="hover:text-blue-400 transition-colors">Privacidade</Link>
-            <Link href="/terms" className="hover:text-blue-400 transition-colors">Termos</Link>
-          </div>
+    <footer className="bg-gray-800 border-t">
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <nav className="mb-4 md:mb-0">
+            <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+              <li><Button variant="link" asChild><Link href="https://github.com/alexanderiscoding/alexanderiscoding/issues" className="text-white" target="_blank" rel="noopener noreferrer">Relatar problema</Link></Button></li>
+              <li><Button variant="link" asChild><Link href="https://github.com/alexanderiscoding/alexanderiscoding/discussions/categories/ideas" className="text-white" target="_blank" rel="noopener noreferrer">Solicitar melhorias</Link></Button></li>
+              <li><Button variant="link" asChild><Link href="/services" className="text-white">Serviços</Link></Button></li>
+            </ul>
+          </nav>
+          <Image
+            src="https://assets.alexanderiscoding.com/favicons/favicon-32x32.png"
+            alt="Alexanderiscoding logo"
+            width={32}
+            height={32}
+          />
+          <nav>
+            <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+              <li><Button variant="link" asChild><Link href="/vdp" className="text-white">Vulnerabilidades</Link></Button></li>
+              <li><Button variant="link" asChild><Link href="/privacy" className="text-white">Privacidade</Link></Button></li>
+              <li><Button variant="link" asChild><Link href="/terms" className="text-white">Termos</Link></Button></li>
+            </ul>
+          </nav>
         </div>
-        <div className="text-center mt-8">
-          <p>&copy; 2022 - 2024 Alexanderiscoding. Todos os direitos reservados.</p>
+        <div className="mt-8 text-center text-sm text-gray-400">
+          &copy; 2022 - 2024 Alexanderiscoding. Todos os direitos reservados.
         </div>
       </div>
     </footer>
-
   )
 }
