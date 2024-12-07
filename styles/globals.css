@@ -48,6 +48,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -80,7 +81,114 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Estilos para o tema escuro (quando .dark está presente) */
+.dark .swagger-ui {
+  color: #b5bac9 !important;
+}
+
+.dark .swagger-ui .info h1,
+.dark .swagger-ui .info h2,
+.dark .swagger-ui .info h3,
+.dark .swagger-ui .info h4,
+.dark .swagger-ui .info h5,
+.dark .swagger-ui .info li,
+.dark .swagger-ui .info p,
+.dark .swagger-ui .info table,
+.dark .swagger-ui .opblock-summary-description,
+.dark .swagger-ui .opblock-description-wrapper p,
+.dark .swagger-ui .opblock-external-docs-wrapper p,
+.dark .swagger-ui .opblock-title_normal p,
+.dark .swagger-ui .parameter__name,
+.dark .swagger-ui .parameter__type,
+.dark .swagger-ui .tab li,
+.dark .swagger-ui .response-col_status,
+.dark .swagger-ui .response-col_links,
+.dark .swagger-ui .btn,
+.dark .swagger-ui .opblock-description-wrapper,
+.dark .swagger-ui .opblock-external-docs-wrapper,
+.dark .swagger-ui .opblock-title_normal {
+  color: #b5bac9 !important;
+}
+
+.dark .swagger-ui .scheme-container,
+.dark .swagger-ui .opblock .opblock-section-header {
+  background: rgb(31 41 55 / 1) !important;
+}
+
+.dark .swagger-ui .opblock-tag small,
+.dark .swagger-ui a.nostyle,
+.dark .swagger-ui a.nostyle:visited,
+.dark .swagger-ui .opblock .opblock-section-header h4,
+.dark .swagger-ui .tab li {
+  color: #b5bac9 !important;
+}
+
+.dark .swagger-ui .unlocked {
+  fill: #fff;
+}
+
+.dark .swagger-ui .unlocked:hover {
+  background-color: #48cb90;
+  color: #fff;
+}
+
+.dark .swagger-ui .unlocked:hover svg {
+  fill: #fbfbfb;
+}
+
+.dark .swagger-ui .arrow,
+.dark #large-arrow-up {
+  fill: #fff;
+}
+
+.dark .swagger-ui table thead tr td,
+.dark .swagger-ui table thead tr th {
+  color: #b5bac9 !important;
+}
+
+.dark .swagger-ui select,
+.dark .swagger-ui select[multiple] {
+  background: #212121 !important;
+  color: #b5bac9 !important;
+}
+
+.dark .swagger-ui input[type=email],
+.dark .swagger-ui input[type=file],
+.dark .swagger-ui input[type=password],
+.dark .swagger-ui input[type=search],
+.dark .swagger-ui input[type=text],
+.dark .swagger-ui textarea {
+  background: #1c1c21 !important;
+  border: 1px solid #404040 !important;
+  color: #b5bac9 !important;
+}
+
+.dark .swagger-ui input[disabled],
+.dark .swagger-ui select[disabled] {
+  background-color: #1f1f1f !important;
+  color: #bfbfbf !important;
+}
+
+.dark .swagger-ui textarea[disabled] {
+  background-color: #41444e !important;
+  color: #fff !important;
+}
+
+.dark .swagger-ui select[disabled] {
+  border-color: #878787 !important;
+}
+
+.dark .swagger-ui textarea:focus {
+  border: 2px solid #2a69a7 !important;
+}
+
+.dark .swagger-ui .checkbox input[type=checkbox]+label>.item {
+  background: #303030 !important;
+  box-shadow: #303030 0 0 0 2px !important;
 }
