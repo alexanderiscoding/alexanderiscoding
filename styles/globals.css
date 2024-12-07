@@ -87,6 +87,11 @@ body {
   }
 }
 
+/* Estilo para oculta o link do json */
+.swagger-ui .info hgroup.main a {
+  display: none;
+}
+
 /* Estilos para o tema escuro (quando .dark está presente) */
 .dark .swagger-ui {
   color: #b5bac9 !important;
