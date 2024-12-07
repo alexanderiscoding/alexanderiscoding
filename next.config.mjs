@@ -6,7 +6,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'assets.alexanderiscoding.com',
-        port: '', // Deixe vazio para usar a porta padrão
+        port: '',
       },
     ],
   }
