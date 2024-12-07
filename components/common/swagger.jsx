@@ -1,14 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
-import { useTheme } from "next-themes";
 
-export default function ApiDocsPage() {
-  const { theme } = useTheme();
-
+export default function Component({ serviceID }) {
   useEffect(() => {
-    console.log(theme);
-    // Carregar os arquivos CSS e JS apenas nesta página
     const swaggerCSS = document.createElement("link");
     swaggerCSS.rel = "stylesheet";
     swaggerCSS.href = "https://unpkg.com/swagger-ui-dist@5.18.2/swagger-ui.css";
@@ -25,13 +20,12 @@ export default function ApiDocsPage() {
 
     swaggerScript.onload = () => {
       window.ui = SwaggerUIBundle({
-        url: "https://assets.alexanderiscoding.com/openapi/iam.json",
+        url: `https://assets.alexanderiscoding.com/openapi/${serviceID}.json`,
         dom_id: "#swagger-ui",
         lang: "pt-BR",
         deepLinking: true,
         presets: [window.SwaggerUIBundle.presets.apis, window.SwaggerUIBundle.SwaggerUIStandalonePreset],
         layout: "BaseLayout",
-        theme: theme === "dark" ? "dark" : "light",
       });
     };
 
@@ -41,11 +35,7 @@ export default function ApiDocsPage() {
       document.head.removeChild(swaggerCSS);
       document.body.removeChild(swaggerScript);
     };
-  }, [theme]);
+  }, [serviceID]);
 
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <div id="swagger-ui"></div>
-    </div>
-  );
+  return <div id="swagger-ui" className="pb-8"></div>;
 }
